@@ -9,7 +9,7 @@
       "Persistence/1.0.0": {
         "dependencies": {
           "Application": "1.0.0",
-          "Ardalis.Specification.EntityFrameworkCore": "7.0.0",
+          "Ardalis.Specification.EntityFrameworkCore": "5.1.0",
           "Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.10",
           "Microsoft.EntityFrameworkCore.Design": "7.0.10",
@@ -20,24 +20,38 @@
           "Persistence.dll": {}
         }
       },
-      "Ardalis.Specification/7.0.0": {
+      "Ardalis.GuardClauses/3.1.0": {
+        "dependencies": {
+          "JetBrains.Annotations": "2019.1.3"
+        },
         "runtime": {
-          "lib/net6.0/Ardalis.Specification.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.0.0"
+          "lib/netstandard2.0/Ardalis.GuardClauses.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.1.0.0"
           }
         }
       },
-      "Ardalis.Specification.EntityFrameworkCore/7.0.0": {
+      "Ardalis.Specification/5.1.0": {
         "dependencies": {
-          "Ardalis.Specification": "7.0.0",
+          "Ardalis.GuardClauses": "3.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Ardalis.Specification.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "Ardalis.Specification.EntityFrameworkCore/5.1.0": {
+        "dependencies": {
+          "Ardalis.Specification": "5.1.0",
           "Microsoft.EntityFrameworkCore": "7.0.10",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.10"
         },
         "runtime": {
-          "lib/net6.0/Ardalis.Specification.EntityFrameworkCore.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.0.0"
+          "lib/netstandard2.1/Ardalis.Specification.EntityFrameworkCore.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
           }
         }
       },
@@ -123,6 +137,14 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "JetBrains.Annotations/2019.1.3": {
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "assemblyVersion": "2019.1.3.0",
+            "fileVersion": "2019.1.3.0"
           }
         }
       },
@@ -821,9 +843,10 @@
       },
       "Application/1.0.0": {
         "dependencies": {
-          "Ardalis.Specification": "7.0.0",
+          "Ardalis.Specification": "5.1.0",
           "AutoMapper": "12.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "Domain": "1.0.0",
           "FluentValidation": "11.7.1",
           "FluentValidation.DependencyInjectionExtensions": "11.7.1",
           "MediatR": "11.1.0",
@@ -846,19 +869,26 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Ardalis.Specification/7.0.0": {
+    "Ardalis.GuardClauses/3.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-e2bd6AN7V0FGOgmCq+srEPmz03PEIkESoyG/QKHxX76ezI13COvi/2WX09f1wLFKdex9gVqxCtNSBH9pvYFUVQ==",
-      "path": "ardalis.specification/7.0.0",
-      "hashPath": "ardalis.specification.7.0.0.nupkg.sha512"
+      "sha512": "sha512-P66NP5pqMvaix4DZ+g205UQHwh0MU4Zq6FNE220F+oZJc8IWqPvlGTAaZFKpjVVKSygetUSIq3IrVLlh/LwvLA==",
+      "path": "ardalis.guardclauses/3.1.0",
+      "hashPath": "ardalis.guardclauses.3.1.0.nupkg.sha512"
     },
-    "Ardalis.Specification.EntityFrameworkCore/7.0.0": {
+    "Ardalis.Specification/5.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-J8eHtJLCVMARRYC6iy88GHZ2ZMGLv204ygWBNbEULUY2mv4xqRW6qCz9CEv/FeFiS6enZIpPTKbOijk/4wNE/A==",
-      "path": "ardalis.specification.entityframeworkcore/7.0.0",
-      "hashPath": "ardalis.specification.entityframeworkcore.7.0.0.nupkg.sha512"
+      "sha512": "sha512-5HWhPi7zCSdtMmyf/jSK5fM4jmbTGP+xWlHMoMz4gfW/vU8qIgW8U8zoPrYrEbFng3y55v3YgmRSxePW3HXlPw==",
+      "path": "ardalis.specification/5.1.0",
+      "hashPath": "ardalis.specification.5.1.0.nupkg.sha512"
+    },
+    "Ardalis.Specification.EntityFrameworkCore/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yGSLjbAIA7BWkIS1C4Xu2xMI43ORKz1wPh0mklG/scxhijMCQjihOOPUFzD3IvqGQWvzZZD1bQAfp4nKVyXZoA==",
+      "path": "ardalis.specification.entityframeworkcore/5.1.0",
+      "hashPath": "ardalis.specification.entityframeworkcore.5.1.0.nupkg.sha512"
     },
     "AutoMapper/12.0.1": {
       "type": "package",
@@ -908,6 +938,13 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "JetBrains.Annotations/2019.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E0x48BwZJKoNMNCekWGKsV4saQS89lf58ydT2szseV44CMYIbaHXjc7+305WLw6up3ibZN9yH6QdGSZo5tQhLg==",
+      "path": "jetbrains.annotations/2019.1.3",
+      "hashPath": "jetbrains.annotations.2019.1.3.nupkg.sha512"
     },
     "MediatR/11.1.0": {
       "type": "package",

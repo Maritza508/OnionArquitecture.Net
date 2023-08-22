@@ -12,5 +12,8 @@ namespace Application.Interfaces
         
     }
 
-    public interface IReadRepositoryAsync<T> : IRepositoryBase<T> where T : class { } 
+    public interface IReadRepositoryAsync<T> : IReadRepositoryBase<T> where T : class 
+    {
+            
+    } 
 }

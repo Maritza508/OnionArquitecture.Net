@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "HK/wYhZraxVukqEdiyW49WD7qXQkCPEWQqFaKJIS/2jUGki2KlvMqpwmp3b4HkBQW5w1E3G9YD8VvwiGntLIrg==",
+  "dgSpecHash": "eNHt0vVMg0vQpG/DgVFoIPLviBgRzZr3BKqNZk2FxJu+/J55DhMl/DBD9xB1TfAppiTapIS6D39gWk0xmKVYFA==",
   "success": true,
   "projectFilePath": "C:\\Users\\marit\\Escritorio\\RetosDeProgramacion.Net\\BancoRestFull\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\marit\\.nuget\\packages\\ardalis.specification\\7.0.0\\ardalis.specification.7.0.0.nupkg.sha512",
-    "C:\\Users\\marit\\.nuget\\packages\\ardalis.specification.entityframeworkcore\\7.0.0\\ardalis.specification.entityframeworkcore.7.0.0.nupkg.sha512",
+    "C:\\Users\\marit\\.nuget\\packages\\ardalis.guardclauses\\3.1.0\\ardalis.guardclauses.3.1.0.nupkg.sha512",
+    "C:\\Users\\marit\\.nuget\\packages\\ardalis.specification\\5.1.0\\ardalis.specification.5.1.0.nupkg.sha512",
+    "C:\\Users\\marit\\.nuget\\packages\\ardalis.specification.entityframeworkcore\\5.1.0\\ardalis.specification.entityframeworkcore.5.1.0.nupkg.sha512",
     "C:\\Users\\marit\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\marit\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\marit\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
@@ -13,6 +14,7 @@
     "C:\\Users\\marit\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
     "C:\\Users\\marit\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.7.1\\fluentvalidation.dependencyinjectionextensions.11.7.1.nupkg.sha512",
     "C:\\Users\\marit\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\marit\\.nuget\\packages\\jetbrains.annotations\\2019.1.3\\jetbrains.annotations.2019.1.3.nupkg.sha512",
     "C:\\Users\\marit\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
     "C:\\Users\\marit\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\marit\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

@@ -32,7 +32,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\marit\\Escritorio\\RetosDeProgramacion.Net\\BancoRestFull\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\marit\\Escritorio\\RetosDeProgramacion.Net\\BancoRestFull\\Domain\\Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -47,7 +51,7 @@
           "dependencies": {
             "Ardalis.Specification": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[5.1.0, )"
             },
             "AutoMapper": {
               "target": "Package",
@@ -204,7 +208,7 @@
           "dependencies": {
             "Ardalis.Specification.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[5.1.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -369,6 +373,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[11.1.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.1.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

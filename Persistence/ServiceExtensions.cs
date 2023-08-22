@@ -4,11 +4,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Persistence.Contexts;
 using Persistence.Repository;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Persistence
 {
@@ -21,7 +16,10 @@ namespace Persistence
                 b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
 
             #region repositories
+            services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+
             services.AddTransient(typeof(IRepositoryAsync<>), typeof(RepositoryAsync<>));
+
             #endregion
         }
     }

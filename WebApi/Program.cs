@@ -1,6 +1,9 @@
 using Application;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Identity.Client;
 using Persistence;
 using Shared;
+using WebApi.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
@@ -9,6 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddApplicationLayer();
 builder.Services.AddPersistenceInfraestructure(builder.Configuration);
 builder.Services.AddSharedInfraestructure(builder.Configuration);
+builder.Services.AddApiVersionExtension();
 
 
 builder.Services.AddControllers();
@@ -27,6 +31,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseAuthorization();
+app.UseErrorHandlerMiddleware();
 
 app.MapControllers();
 

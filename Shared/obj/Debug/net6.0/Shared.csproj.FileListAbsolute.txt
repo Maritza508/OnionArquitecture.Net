@@ -13,3 +13,5 @@ C:\Users\marit\Escritorio\RetosDeProgramacion.Net\BancoRestFull\Shared\obj\Debug
 C:\Users\marit\Escritorio\RetosDeProgramacion.Net\BancoRestFull\Shared\bin\Debug\net6.0\Application.dll
 C:\Users\marit\Escritorio\RetosDeProgramacion.Net\BancoRestFull\Shared\bin\Debug\net6.0\Application.pdb
 C:\Users\marit\Escritorio\RetosDeProgramacion.Net\BancoRestFull\Shared\obj\Debug\net6.0\Shared.csproj.CopyComplete
+C:\Users\marit\Escritorio\RetosDeProgramacion.Net\BancoRestFull\Shared\bin\Debug\net6.0\Domain.dll
+C:\Users\marit\Escritorio\RetosDeProgramacion.Net\BancoRestFull\Shared\bin\Debug\net6.0\Domain.pdb

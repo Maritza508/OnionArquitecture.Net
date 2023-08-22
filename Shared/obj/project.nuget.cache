@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "g8OaHEcbquwvFpyO5LLgEprD7x6Kx/sJJloh0RelD1N2QGM5u7+K4+cPBysXYUw5xA8nd5sG1i+PwHDhJoDM4g==",
+  "dgSpecHash": "aLsd94I5z5K4Ur1QTG/DIojcMVbBppIGMqCqUBLAgxdJ19r6n4iiw62YBfRRNTPNV7CdtbPfOPf1dKzpjm4kuA==",
   "success": true,
   "projectFilePath": "C:\\Users\\marit\\Escritorio\\RetosDeProgramacion.Net\\BancoRestFull\\Shared\\Shared.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\marit\\.nuget\\packages\\ardalis.specification\\7.0.0\\ardalis.specification.7.0.0.nupkg.sha512",
+    "C:\\Users\\marit\\.nuget\\packages\\ardalis.guardclauses\\3.1.0\\ardalis.guardclauses.3.1.0.nupkg.sha512",
+    "C:\\Users\\marit\\.nuget\\packages\\ardalis.specification\\5.1.0\\ardalis.specification.5.1.0.nupkg.sha512",
     "C:\\Users\\marit\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\marit\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\marit\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
     "C:\\Users\\marit\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.7.1\\fluentvalidation.dependencyinjectionextensions.11.7.1.nupkg.sha512",
+    "C:\\Users\\marit\\.nuget\\packages\\jetbrains.annotations\\2019.1.3\\jetbrains.annotations.2019.1.3.nupkg.sha512",
     "C:\\Users\\marit\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
     "C:\\Users\\marit\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\marit\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
