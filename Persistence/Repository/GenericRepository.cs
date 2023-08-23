@@ -96,11 +96,5 @@ namespace Persistence.Repository
                 throw;
             }
         }
-
-
-
-
-
-
     }
 }
